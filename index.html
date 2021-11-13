@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Septime  - Correction</title>
+
+    <!-- font de google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond&display=swap" rel="stylesheet"> 
+
+    <!-- ma feuille de style externe -->
+    <link rel="stylesheet" href="style-flex.css">
+</head>
+<body>
+    <!-- début du conteneur principal -->
+    <div class="conteneur">
+        <!-- En tête -->
+        <header>
+            <p>city guide - paris</p>
+
+            <nav>
+                <a href="#salle">Salle - </a>
+                <a href="#service">Service - </a>
+                <a href="#dressage">Dressage - </a>
+                <a href="#gout">Goût-</a>
+            </nav>
+            <h1>Septime</h1>
+        </header><!-- fin de l'en-tête -->
+
+        <!-- section 1 -->
+        <section class="row">
+            <div class="col-6">
+               <img src="img/assiette.png" alt="Image d'assiette"> <!-- Image mise en CSS -->
+            </div> <!-- fin de la div. image -->
+            <div class="col-6">
+                <h2>Exemple de plat</h2>
+                <hr>
+                <p>Merlu de la ligne <br>
+                Carottes nouvelles <br>
+                Épices douces</p>
+            </div><!-- fin de la div. texte -->
+        </section> <!-- fin de la section 1 -->
+
+        <!-- section 2 -->
+        <section class="row">
+            <!-- raccourci : .sous-section*2  -->
+            <div class="col-6">
+                <h2 id="salle">La salle</h2>
+                <p>Ambiance brute, table en bois ancien, béton ciré au sol. La salle lumineuse est très agréable, elle est ouverte sur la cuisine. Au fond d ela salle, une jolie table ronde à vue sur une rue avec un petit jardin parisien. Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus eum autem aperiam adipisci nam impedit quos sit voluptas praesentium veniam harum vel perspiciatis necessitatibus officiis, dolore veritatis asperiores excepturi tenetur? </p>
+                <!-- la note -->
+                <br>
+                <div class="note">
+                    <p>La note *****</p>
+                </div>
+            </div> <!-- fin de la div. texte -->
+            <div class=" col-6">
+               <img src="img/resto_01.jpg" alt="resto-01"> <!-- Image en CSS -->
+            </div>
+        </section><!-- fin de la section 2 -->
+
+        <!-- section 3 -->
+        <section class="row">
+            <div class="col-6">
+               <img src="img/resto_02.jpg" alt="resto-02"> <!-- image en CSS -->
+            </div>
+            <div class="col-6">
+                <h2 id="service">Le service</h2>
+                <p>Service toujours impeccable. L'ensemble de la table est servi rapidement. La corbeille de pain régulièrement pleine, les serveurs expliquent le menu avec beaucoup d'attention et ont d'excellents conseils pour marier mets et vins. On reconnaît l'ensemble de l'équipe à ses tabliers bleus.</p>
+                <!-- la note -->
+                <br>
+                <div class="note">
+                    <p>La note *****</p>
+                </div>
+            </div>
+        </section><!-- fin de la section 3 -->
+
+        <!-- section 4 -->
+        <section class="row">
+            <div class="col-6">
+                <h2 id="dressage">Le dressage</h2>
+                <p>Le dressage, c'est un peu la marque de fabrique du chef, avec la cuisine bien sûr. Ses plats sont de vrais petits taleaux de maître. Une belle recherche dans les formes et couleurs, très agréable visuellement. </p>
+                <!-- la note -->
+                <br>
+                <div class="note">
+                    <p>La note *****</p>
+                </div>
+            </div>
+            <div class="col-6">
+                <img src="img/resto_03.jpg" alt="resto-03"><!-- image en css -->
+            </div>
+        </section><!-- fin de la section 4 -->
+
+        <!-- section 5 -->
+        <section class="row">
+            <div class="col-6">
+                <img src="img/resto_04.jpg" alt="resto_04"><!-- image en css -->
+            </div>
+            <div class="col-6">
+                <h2 id="gout">Le goût</h2>
+                <p>Last but not least, le goût. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fuga enim adipisci at excepturi veniam, quia consectetur exercitationem ex illum odit alias atque perspiciatis veritatis voluptatum optio quibusdam assumenda ut facere.
+                Sit, dicta. Aspernatur et architecto enim pariatur nesciunt consequatur possimus at, aliquam cumque perspiciatis amet dolores illum facilis similique? Aspernatur consectetur accusantium libero amet. Officiis provident perspiciatis iure voluptas est!</p>
+                <!-- la note -->
+                <br>
+                <div class="note">
+                    <p>La note *****</p>
+                </div>
+            </div>
+        </section><!-- fin de la section 5 -->
+
+        
+
+        <!-- le footer -->
+        <footer>
+            <figure class="plan">
+               <img src="img/plan.png" alt="Plan de la carte"> <!-- image en css -->
+            </figure>
+            <p class="caption">city guide</p>
+            <h2>septime</h2>
+            <address>
+                30, rue de Charonne - 75010 Paris <br>
+                01 43 67 38 29
+            </address>
+            <em>Du lundi au vendredi - midi & soir</em>
+        </footer> <!-- fin du footer -->
+
+    </div><!-- fin du conteneur principal -->
+</body>
+</html>
